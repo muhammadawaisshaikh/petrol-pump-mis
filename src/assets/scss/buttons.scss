@@ -1,0 +1,27 @@
+.c-btn{
+  // margin-top: 15px;
+  padding: 0;
+  .press{
+    padding: 9px 25px;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    &.green {
+      background: $greenGradient;
+    }
+    &.pink {
+      background: $default;
+    }
+  }
+}
+
+.small-chip{
+  background: $default;
+  color: $white;
+  font-size: 12px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
